@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
-</head>
-<body>
-
-    <div class="grid-container">
-        <div class="grid-item">1</div>
+    <title>Grid Review</title>
+    <style>
+        .divrules {
+            background-color: #07ffb5fb;
+            height: 35px;
+            width: 35px;
+            margin: 10px;
+            font: size 50px; ;
         }
-        <div class="grid-item" style="background-color 
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-      </div>
 
+        .container {
+            display: grid;
+
+        }
+
+        .nav {
+            display: grid;
+            grid-template-columns: auto;
+
+        }
+
+        .bodymain {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        #navspecifc {
+            width: 1900px;
+        }
+
+        .optionrules{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .footer{
+            display: grid;
+            grid-auto-columns: auto auto auto auto;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="nav"></div>
+    <div class="divrules" id="navspecifc">1</div>
+    <div class="bodymain">
+        <div class="divrules" style="width: 1050px; height: 450px;">2</div>
+        <div class="divrules" style="width: 750px; height: 450px;">3</div>
+    </div>
+    <div class="optionrules">
+        <div class="divrules" style="width: 600px; height: 300px;">4</div>
+        <div class="divrules" style="width: 600px; height: 300px;">5</div>
+        <div class="divrules" style="width: 600px; height: 300px;">6</div>
+    </div>
+    <div class="footer">
+        <div class="divrules" style="width: 1900px; height: 200px;">7</div>
+    </div>
 </body>
+
 </html>
