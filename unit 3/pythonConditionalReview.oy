@@ -1,0 +1,27 @@
+
+# functios are sets of instructions 
+# that inform the computer on what to do 
+# with data.
+
+# functio definition
+def welcomeMsg():
+    #step 1 
+   primt ('welcome to coding class.')
+
+   # function
+
+
+   # Conditional statements use the if/ else keywords
+   # to help us make multiple decions and outcomes 
+   # based on data.
+
+def meal(time)
+    if time =='before noon':
+      print('it is breakfeast time.')
+    elif time =='noon':
+      print('it is lunch time. ') 
+    elif time == 'after noon':
+      print (' it is dinner time. ')
+    else:      
+
+

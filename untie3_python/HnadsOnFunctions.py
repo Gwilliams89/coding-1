@@ -11,7 +11,7 @@
 
 # paramte = placeholder(for data)
 
-def customizeMyName(name);
+def customizeMyName(name)
    print('Your new custom name is Dasog '+ name)
 
 # argument is the data passed inside inside of the function 
