@@ -1,0 +1,26 @@
+# A function is is a set of instruction that preform a specific task or job. Q1
+
+# A function parameter is a placeholder for data, while an function argument is when you pass in data for the function. Q2
+
+# The if/ else conditional statements are keywords to make decisions or outcomes based on data in the function arguement. Q3
+
+# The integer data type is data that is all whole numbers. Q4
+
+# The boolean data type is something to check data to see if it is true or false. Q5
+
+# The operator that would work best for the following function would be the comparison operator. Q6
+
+# The operator that would work best for the following function would be the assignment operator. Q7
+
+
+def alphaNumricPasswordSystem(password):
+    txt= password
+    password = txt.count(password, 4, 10)
+    if password.count < 4:
+        print('This password is too short please enter another one.')
+
+alphaNumricPasswordSystem(1)
+
+ What is an integer data type? Please write your response in a complete sentence as a string data type.
+
+
